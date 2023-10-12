@@ -5,9 +5,13 @@ function App() {
 
   return (
     <>
-      <a>
-        <img src={steamLogo}/>
-      </a>
+
+      <meta property="og:type" content="website"/>
+      <meta property="og:url" content="https://stxamcommunity.com"/>
+      <meta property="og:title" content="stxam"/>
+      <meta property="og:description" content=""/>
+      <meta property="og:image" content={steamLogo}/>
+
     </>
   )
 }
