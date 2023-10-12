@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <head>
 
       <meta property="og:type" content="website"/>
       <meta property="og:url" content="https://stxamcommunity.com"/>
@@ -12,7 +12,7 @@ function App() {
       <meta property="og:description" content=""/>
       <meta property="og:image" content={steamLogo}/>
 
-    </>
+    </head>
   )
 }
 
