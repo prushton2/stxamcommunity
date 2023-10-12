@@ -1,0 +1,73 @@
+Arguments: 
+  /usr/bin/node-18 /usr/local/bin/yarn
+
+PATH: 
+  /home/prushton/Downloads/google-cloud-sdk/bin:/home/prushton/.local/bin:/home/prushton/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.17.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received [Object: null prototype]
+      at new NodeError (node:internal/errors:405:5)
+      at validateString (node:internal/validators:162:11)
+      at Object.isAbsolute (node:path:1156:5)
+      at module.exports.exports.default (/usr/local/lib/node_modules/yarn/lib/cli.js:97087:16)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:51330:63
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "prushtoncom",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "web-vitals": "^2.1.4",
+      "devDependencies": {
+        "react-scripts": "^5.0.1"
+      }
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
