@@ -1,0 +1,30 @@
+1696816310803	geckodriver	INFO	Listening on 127.0.0.1:33395
+1696816311351	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "41361" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilef5ZYdL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: vaapitest: ERROR (t=0.707697) [GFX1-]: vaapitest: ERROR
+Crash Annotation GraphicsCriticalError: |[0][GFX1-]: vaapitest: ERROR (t=0.707697) |[1][GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+ (t=0.707824) [GFX1-]: vaapitest: VA-API test failed: failed to initialise VAAPI connection.
+
+1696816312124	Marionette	INFO	Marionette enabled
+1696816312196	Marionette	INFO	Listening on port 36163
+WebDriver BiDi listening on ws://127.0.0.1:41361
+Read port: 36163
+1696816312420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:41361/devtools/browser/f0d66599-3d74-4816-b789-d674f53f6231
+JavaScript warning: https://cdn.intergient.com/pageos/1.10.15/videoCard.e9a12be02bf0a5088f3e.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.intergient.com/pageos/1.10.15/videoCard.e9a12be02bf0a5088f3e.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://z.moatads.com/playwireprebidheader597261727146/moatheader.js, line 145: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1696816330648	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1696816335353	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+JavaScript warning: https://pagead2.googlesyndication.com/bg/YeTNF82ErcXtSc42GSWrie2SEIEL8DxR64dbf1nZkSc.js line 2 > eval line 4090 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854, line 1: Script terminated by timeout at:
+104/T/<@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:11936
+t@https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854:1:11797
+
+1696816362094	Marionette	INFO	Stopped listening on port 36163
